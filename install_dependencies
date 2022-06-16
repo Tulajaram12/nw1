@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo yum -y update
+sudo yum install httpd -y
+sudo rm /var/www/html/index.htmll
